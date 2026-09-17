@@ -1,0 +1,27 @@
+# Local dependency/build caches and generated run directories.
+**/.lake/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.venv/
+**/venv/
+**/node_modules/
+**/logs/
+**/.DS_Store
+
+# Compiled objects and ordinary transient logs.
+*.py[cod]
+*.olean
+*.ilean
+*.olean.server
+*.olean.private
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.log
+
+# Preserve the recorded compiler/audit logs of the extension.
+!/lean_extension/audit/**/*.log

@@ -1,0 +1,114 @@
+{
+  "baseline_driver_sha256": "2e0d0e2170452f2daa88407f1350ef575c98248554e9274d6d1e5297b28e5deb",
+  "evidence": {
+    "audit/regular/Hedetniemi.Expository.RegularAlgebra.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/regular/Hedetniemi.Expository.RegularAudit.log": "0792bcbdfab5494185ec1cc6d037ecb5730fc90e1fe10e6517752e1a188db909",
+    "audit/regular/Hedetniemi.Expository.RegularBase.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/regular/Hedetniemi.Expository.RegularCounterexample.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/regular/Hedetniemi.Expository.RegularIdentityDefinition.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/regular/Hedetniemi.Expository.RegularKernelPolynomial.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/regular/Hedetniemi.Expository.RegularPSD.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/regular/Hedetniemi.Expository.RegularSparse.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/regular/ORIGINAL_README.md": "c70d4a214b35f66c5db8cde2ddc5e8955993f319143220d4a87e399df7b6b1ea",
+    "audit/regular/original_verify_regular.py": "b961a7ad847e0572fd682494781d7e9e81f0877d3d6b2c80dc57ffed32893de9",
+    "audit/regular/result.json": "4a0e1a1752865e425040d94fae17b6a851b73ca78fed5d9152db737dfc19bae9",
+    "audit/uniform/Hedetniemi.Expository.Audit.log": "72b83ad2cb04254ab52e3a061f1aac87f1212ee284bcc7ac63c427bf829e971d",
+    "audit/uniform/Hedetniemi.Expository.SourceTotals.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/uniform/Hedetniemi.Expository.Uniform.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/uniform/ORIGINAL_README.md": "cabebb651e77c9449f92ffac36a3d174a27368972a7a760dfbc345962d15472e",
+    "audit/uniform/original_verify_expository.py": "5fcc4035c8d3e53cc6a13144715c9d5b2f24f1169c028b1a15375690c632f082",
+    "audit/uniform/result.json": "3b42bca5e36bc06bdd45e6418e71d477214ea0b4041517c7fe79b6e69c2d6750"
+  },
+  "format": 1,
+  "groups": [
+    {
+      "audit_module": "Hedetniemi.Expository.Audit",
+      "endpoint_marker": "EXPOSITORY_ENDPOINT",
+      "endpoints": [
+        "Hedetniemi.Expository.sourceMatrix_trace",
+        "Hedetniemi.Expository.sourceMatrix_entry_sum",
+        "Hedetniemi.Expository.source_uniform_gap",
+        "Hedetniemi.Expository.uniformG_card",
+        "Hedetniemi.Expository.uniform_product_colorable",
+        "Hedetniemi.Expository.uniformG_quantumChromaticNumber_lower",
+        "Hedetniemi.Expository.uniform_quantum_counterexample",
+        "Hedetniemi.Expository.uniform_quantum_hedetniemi_fails",
+        "Hedetniemi.Expository.uniform_cstar_counterexample",
+        "Hedetniemi.Expository.uniform_cstar_hedetniemi_fails"
+      ],
+      "name": "uniform",
+      "record": "audit/uniform/result.json",
+      "scope": "Closed uniform 310472/934177 counterexample and exact unweighted source totals.",
+      "summary": {
+        "axioms": [
+          "propext",
+          "Quot.sound",
+          "Classical.choice"
+        ],
+        "modules": [
+          "Hedetniemi.Expository.SourceTotals",
+          "Hedetniemi.Expository.Uniform"
+        ],
+        "safe_declaration_count": 37
+      },
+      "summary_marker": "EXPOSITORY_AUDIT_PASSED"
+    },
+    {
+      "audit_module": "Hedetniemi.Expository.RegularAudit",
+      "endpoint_marker": "REGULAR_ENDPOINT",
+      "endpoints": [
+        "Hedetniemi.Expository.regularMatrix_eq_adjacency_add",
+        "Hedetniemi.Expository.regularGramMatrix_adjacency_polynomial",
+        "Hedetniemi.Expository.regular_sparse_matrix_identity",
+        "Hedetniemi.Expository.regularMatrix_sos",
+        "Hedetniemi.Expository.regularMatrix_entry_sum",
+        "Hedetniemi.Expository.regularMatrix_trace",
+        "Hedetniemi.Expository.regularMatrix_posSemidef",
+        "Hedetniemi.Expository.regularG_card",
+        "Hedetniemi.Expository.regularH_card",
+        "Hedetniemi.Expository.regularH_colorable",
+        "Hedetniemi.Expository.regular_product_colorable",
+        "Hedetniemi.Expository.regularG_quantumChromaticNumber_lower",
+        "Hedetniemi.Expository.regularH_quantumChromaticNumber",
+        "Hedetniemi.Expository.regular_quantum_counterexample",
+        "Hedetniemi.Expository.regular_quantum_hedetniemi_fails",
+        "Hedetniemi.Expository.regular_cstar_counterexample",
+        "Hedetniemi.Expository.regular_cstar_hedetniemi_fails"
+      ],
+      "name": "regular",
+      "record": "audit/regular/result.json",
+      "scope": "Closed regular-base 524288/1576451 counterexample, exact SOS identity, and source matrix totals.",
+      "summary": {
+        "axioms": [
+          "propext",
+          "Quot.sound",
+          "Classical.choice"
+        ],
+        "modules": [
+          "Hedetniemi.Expository.RegularBase",
+          "Hedetniemi.Expository.RegularIdentityDefinition",
+          "Hedetniemi.Expository.RegularAlgebra",
+          "Hedetniemi.Expository.RegularKernelPolynomial",
+          "Hedetniemi.Expository.RegularSparse",
+          "Hedetniemi.Expository.RegularPSD",
+          "Hedetniemi.Expository.RegularCounterexample"
+        ],
+        "safe_declaration_count": 120
+      },
+      "summary_marker": "REGULAR_AUDIT_PASSED"
+    }
+  ],
+  "sources": {
+    "Hedetniemi/Expository/Audit.lean": "c09f7f49c121c3874473175ec06806c73180c22b66ab7c8f5b382edd2a8e6f20",
+    "Hedetniemi/Expository/RegularAlgebra.lean": "bc0c7c700c8fc53130cd4f7926e5b3d71260842d0743049f7e17ef428d45886d",
+    "Hedetniemi/Expository/RegularAudit.lean": "f358661c0c0afd494dd70b662709c03999150d55666be798fc49a2f7cf09bb38",
+    "Hedetniemi/Expository/RegularBase.lean": "007e2a177ad21cff958deb61d0ec7ca02224b5b11f32451cf267a668430eb911",
+    "Hedetniemi/Expository/RegularCounterexample.lean": "8c45f9ebfe5c3b24b186da7285bd98774d47e1c8ab7ffcde2d6272550b78ad3f",
+    "Hedetniemi/Expository/RegularIdentityDefinition.lean": "1fd1334dbbcc737a8e67115a50610ee24b89de69631e5498921862e1ce4ef975",
+    "Hedetniemi/Expository/RegularKernelPolynomial.lean": "cecab17c37adf7e7bd81f3fc0df0ef0a716c13e73c4f2da4d03998a80248e56e",
+    "Hedetniemi/Expository/RegularPSD.lean": "322c6a13491af8d7ef3cf4e55ce5f0a76359e391b28de7e5b4e7255106efa149",
+    "Hedetniemi/Expository/RegularSparse.lean": "67d5da960375ce269847d56e468c3ff4cd6c6eb867c7599e1f96e2d0f588c53f",
+    "Hedetniemi/Expository/SourceTotals.lean": "7407d0675bc78f53e3c01b839f193e861417800797246bdaefd16b0cc03c3d37",
+    "Hedetniemi/Expository/Uniform.lean": "14d5ae70f42419f5da13e9b20a8fb3c58b0a645d65c9d2a0538046a1d05e6ced"
+  }
+}

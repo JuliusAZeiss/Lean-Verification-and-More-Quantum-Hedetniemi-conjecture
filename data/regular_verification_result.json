@@ -1,0 +1,19 @@
+{
+  "base_order": 1024,
+  "base_degree": 22,
+  "fiber_size": 512,
+  "product_colors": 1538,
+  "first_factor_order": 524288,
+  "second_factor_order": 1576451,
+  "matrix_trace": 10240,
+  "matrix_entry_sum": 32768,
+  "strict_gap": 1028096,
+  "xor_identities_checked": 1024,
+  "sparse_cubic_identities_checked": 1024,
+  "polynomial_residual_equals_piecewise_residual": true,
+  "status": "INTEGER_CHECKS_PASSED",
+  "lean_executed_by_this_program": false,
+  "rejection_tests_passed": 6,
+  "checker_sha256": "c02ae6e6187e4b6e5e772f6eb5fc561b325d93e277ad9c8c08e849206d8fa75c",
+  "scope": "Regular base, exact matrix identity, totals and graph-order arithmetic."
+}

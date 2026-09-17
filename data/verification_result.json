@@ -1,0 +1,64 @@
+{
+  "status": "EXACT FINITE CERTIFICATE VERIFIED",
+  "model": "projective quantum coloring",
+  "lean_executed_by_this_program": false,
+  "general_operator_gadget_proof": "analytical dependency, not checked by this program",
+  "parent_vertices": 1024,
+  "parent_degree": 22,
+  "parent_no_closed_walk_three_or_five": true,
+  "full_matrix_vertices": 788,
+  "translation_rank": 2,
+  "retained_matrix_trace": 400025192,
+  "retained_matrix_entry_sum": 1202501792,
+  "congruence_matrix_trace": 2188037152992,
+  "congruence_matrix_entry_sum": 6577205529458,
+  "diagonal_congruence_verified": true,
+  "fourier_blocks": 4,
+  "fourier_block_size": 197,
+  "fourier_character_completeness": true,
+  "fourier_intertwining_rows": 3152,
+  "gram_residual_margins": [
+    1956728657718,
+    1960901794125,
+    1959432151038,
+    1963142463099
+  ],
+  "graph_colors": 1184,
+  "quantum_first_lower": 1185,
+  "quantum_second_exact": 1185,
+  "lifted_ratio": "127554778364024761/107732074789356",
+  "strict_gap": "1813427257/107732074789356",
+  "local_even_capacities": [
+    394
+  ],
+  "local_odd_capacities": [
+    394
+  ],
+  "base_vertices": 788,
+  "first_factor_vertices": 310317,
+  "second_factor_vertices": 934177,
+  "certificate_trace": 400025192,
+  "certificate_entry_sum": 1202501792,
+  "lifted_numerator": 1020438226912198088,
+  "lifted_denominator": 861856598314848,
+  "strict_gap_numerator": 14507418056,
+  "tamper_tests_rejected": [
+    "dependent_coordinate_basis",
+    "wrong_parent_generator",
+    "boolean_instead_of_integer",
+    "unsupported_matrix_edge",
+    "corrupted_gram_factor",
+    "zero_fiber",
+    "boolean_congruence_weight",
+    "zero_congruence",
+    "incorrect_congruence",
+    "missing_strict_separation",
+    "incorrect_factor_order",
+    "duplicate_json_keys"
+  ],
+  "sha256_identification_only": {
+    "instance.json": "be5383668b5cf6e69013c6fc41407d7612fd5591825f7a657e4fa7e311228ba1",
+    "matrix_certificate.json": "c693121f345bc4be4b59edd17502c5f67723679e4913dfa4b131ff887ef53b88",
+    "gram_certificate.json.gz": "1d86a7fef4648921b83b6406539a71d2597a7bc8984cb20a96733ef7c8fe167f"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "REJECTED_AS_EXPECTED",
+  "description": "The shared transitive axiom audit rejects an intentionally imported nonstandard axiom in an isolated probe.",
+  "diagnostic": [
+    "/private/tmp/Round4NegativeAudit/Probe.lean:74:0: error: Unapproved transitive axiom Hedetniemi.Round4.audit_negative_forbidden in Hedetniemi.Round4.audit_negative_forbidden, defined in Hedetniemi.Round4.AuditNegative"
+  ],
+  "log_sha256": "62400d40d3eba8984f54f212e3575274605e61245a154fc382363c4ef1bed9c5",
+  "temporary_object_removed": true
+}

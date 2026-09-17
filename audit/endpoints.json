@@ -1,0 +1,122 @@
+[
+  {
+    "unsafe": false,
+    "type": "Hedetniemi.quantumChromaticNumber (Hedetniemi.categoricalProduct Hedetniemi.Round4.smallG Hedetniemi.Round4.smallH) <\n  min (Hedetniemi.quantumChromaticNumber Hedetniemi.Round4.smallG)\n    (Hedetniemi.quantumChromaticNumber Hedetniemi.Round4.smallH)",
+    "no_parameters": true,
+    "name": "Hedetniemi.Round4.quantum_hedetniemi_counterexample",
+    "kind": "theorem",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  {
+    "unsafe": false,
+    "type": "Hedetniemi.QuantumColorable (Hedetniemi.categoricalProduct Hedetniemi.Round4.smallG Hedetniemi.Round4.smallH) 1184 \u2227\n  \u00acHedetniemi.QuantumColorable Hedetniemi.Round4.smallG 1184 \u2227\n    \u00acHedetniemi.QuantumColorable Hedetniemi.Round4.smallH 1184",
+    "no_parameters": true,
+    "name": "Hedetniemi.Round4.unconditional_quantum_product_counterexample",
+    "kind": "theorem",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  {
+    "unsafe": false,
+    "type": "(Hedetniemi.categoricalProduct Hedetniemi.Round4.smallG Hedetniemi.Round4.smallH).Colorable 1184",
+    "no_parameters": true,
+    "name": "Hedetniemi.Round4.small_product_colorable",
+    "kind": "theorem",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  {
+    "unsafe": false,
+    "type": "Fintype.card ((v : Fin 788) \u00d7 Fin (Hedetniemi.Round4.fiberSize v)) = 310317",
+    "no_parameters": true,
+    "name": "Hedetniemi.Round4.smallG_card",
+    "kind": "theorem",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  {
+    "unsafe": false,
+    "type": "Fintype.card Hedetniemi.Round4.SmallHVertex = 934177",
+    "no_parameters": true,
+    "name": "Hedetniemi.Round4.smallH_card",
+    "kind": "theorem",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  {
+    "unsafe": false,
+    "type": "1185 \u2264 Hedetniemi.quantumChromaticNumber Hedetniemi.Round4.smallG",
+    "no_parameters": true,
+    "name": "Hedetniemi.Round4.smallG_quantumChromaticNumber_lower",
+    "kind": "theorem",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  {
+    "unsafe": false,
+    "type": "Hedetniemi.quantumChromaticNumber Hedetniemi.Round4.smallH = 1185",
+    "no_parameters": true,
+    "name": "Hedetniemi.Round4.smallH_quantumChromaticNumber",
+    "kind": "theorem",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  {
+    "unsafe": false,
+    "type": "Hedetniemi.quantumChromaticNumber Hedetniemi.Round4.smallH = 1185 \u2227\n  \u2200 (v : Hedetniemi.Round4.SmallHVertex),\n    Hedetniemi.quantumChromaticNumber (SimpleGraph.induce {w | w \u2260 v} Hedetniemi.Round4.smallH) = 1184",
+    "no_parameters": true,
+    "name": "Hedetniemi.Round4.smallH_vertex_critical",
+    "kind": "theorem",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  {
+    "unsafe": false,
+    "type": "Hedetniemi.Round4.cstarChromaticNumber\n    (Hedetniemi.categoricalProduct Hedetniemi.Round4.smallG Hedetniemi.Round4.smallH) <\n  min (Hedetniemi.Round4.cstarChromaticNumber Hedetniemi.Round4.smallG)\n    (Hedetniemi.Round4.cstarChromaticNumber Hedetniemi.Round4.smallH)",
+    "no_parameters": true,
+    "name": "Hedetniemi.Round4.cstar_hedetniemi_counterexample",
+    "kind": "theorem",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  {
+    "unsafe": false,
+    "type": "Hedetniemi.Round4.CStarColorable (Hedetniemi.categoricalProduct Hedetniemi.Round4.smallG Hedetniemi.Round4.smallH)\n    1184 \u2227\n  \u00acHedetniemi.Round4.CStarColorable Hedetniemi.Round4.smallG 1184 \u2227\n    \u00acHedetniemi.Round4.CStarColorable Hedetniemi.Round4.smallH 1184",
+    "no_parameters": true,
+    "name": "Hedetniemi.Round4.unconditional_cstar_product_counterexample",
+    "kind": "theorem",
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  }
+]

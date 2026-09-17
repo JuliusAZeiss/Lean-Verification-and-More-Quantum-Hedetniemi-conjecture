@@ -1,0 +1,10 @@
+Real completed audit accepted: 8328 safe declarations, 7244 theorems, 10 closed endpoints.
+Correctly rejected: missing endpoint
+Correctly rejected: duplicate endpoint
+Correctly rejected: missing summary
+Correctly rejected: duplicate summary
+Correctly rejected: unapproved axiom
+Correctly rejected: conditional endpoint
+Correctly rejected: unsafe endpoint
+Correctly rejected: declaration count mismatch
+Correctly rejected: duplicate JSON key
